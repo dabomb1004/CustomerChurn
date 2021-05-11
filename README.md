@@ -25,11 +25,8 @@ Next, we had to encode our categorical (country column) and binary data (male/fe
 
 We imported LabelEncoder and OneHotEncoder from sklearn.preprocessing and ColumnTransformer from sklearn.compose. Since Geography column has text, we need to encode them to numbers. If we use LabelEncoder to convert the text into numbers we will get a new transformed column that looks as follows: 
 
-Geography       ----->     Geography(Transformed Column)
-
-Spain                      0
-France                     1
-Germany                    2
+Geography       ----->     Spain, France, Germany
+Geography(Transformed Column) ----> 0, 1, 2 
 
 
 
