@@ -18,14 +18,14 @@ Estimated Salary: 50000
 
 To preprocess the data, we took out irrelevant data such as customer id and surname and we saved the relevant info into variable x and the target variable into y. Pandas was used to split the columns into X and y. 
 
-X = dataset.iloc[:, 3:13].values
+X = dataset.iloc[:, 3:13].values & 
 y = dataset.iloc[:, 13].values
 
 Next, we had to encode our categorical (country column) and binary data (male/female or gender column). 
 
 We imported LabelEncoder and OneHotEncoder from sklearn.preprocessing and ColumnTransformer from sklearn.compose. Since Geography column has text, we need to encode them to numbers. If we use LabelEncoder to convert the text into numbers we will get a new transformed column that looks as follows: 
 
-Geography       ----->     Spain, France, Germany
+Geography       ----->     Spain, France, Germany          vs 
 Geography(Transformed Column) ----> 0, 1, 2 
 
 
