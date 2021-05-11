@@ -3,15 +3,15 @@
 Using a dataset that contains Customer Information at a bank, we tried to predict whether or not the customer will leave using a neural network from the python sklearn package. The dataset is as follows: 
 
 (variable columns with example data type) 
-Geography: France
-Credit Score: 600
-Gender: Male
-Age: 40
-Tenure: 3
-Balance: 60000
-Number of Products: 2
-Has Credit Card: Yes
-Is Active Member: Yes
+Geography: France,
+Credit Score: 600,
+Gender: Male,
+Age: 40,
+Tenure: 3,
+Balance: 60000,
+Number of Products: 2,
+Has Credit Card: Yes,
+Is Active Member: Yes,
 Estimated Salary: 50000
 
 # Preprocessing
